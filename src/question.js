@@ -9,16 +9,16 @@ class Question{
     
    questionsDiv.innerHTML += `
     <form>
-     <p><label for="w3review">First Question:</label></p>
-     <textarea id="question" name="w3review" rows="4" cols="50"></textarea>
+     <p><label for="first-question">First Question:</label></p>
+     <textarea id="question" name="w3review" rows="4" cols="50" required></textarea>
      <br>
    
-     <p><label for="w3review">Second Question:</label></p>
-     <textarea id="question" name="w3review" rows="4" cols="50"></textarea>
+     <p><label for="second-qustion">Second Question:</label></p>
+     <textarea id="question" name="w3review" rows="4" cols="50" required></textarea>
      <br>
    
-     <p><label for="w3review">Third Question:</label></p>
-     <textarea id="question" name="w3review" rows="4" cols="50"></textarea>
+     <p><label for="third-question">Third Question:</label></p>
+     <textarea id="question" name="w3review" rows="4" cols="50" required></textarea>
      <br>
      
      <input type="submit" value="Submit">
