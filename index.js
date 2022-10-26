@@ -1,3 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    debugger;
+    let q = new Question
+    q.renderQuestions()
 })
+
