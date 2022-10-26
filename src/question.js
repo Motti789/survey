@@ -24,24 +24,15 @@ class Question{
      <input type="submit" value="Submit">
     </form>
    `
-
-  
   }
 
    // add event listener for the form
   questionFormSubmission(){
     let questionsDiv = document.getElementById("questions-container")
-    
     questionsDiv.addEventListener("submit", (event)=> {
       event.preventDefault();
-      // alert('Your responses were recorded successfully!')
+      alert("Your response was recorded successfully!")
       event.target.reset()
-      
-    }
-    )
-
-    
+    })
   }
-  
-
 }
