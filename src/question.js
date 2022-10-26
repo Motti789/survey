@@ -9,7 +9,10 @@ class Question{
     
    questionsDiv.innerHTML += `
     <form>
-     <p><label for="first-question">First Question:</label></p>
+    <label for="username">Name:</label>
+    <input type="text" id="username" name="username" size="30" required>
+
+     <p><label for="first-question">What did you accomplish today:</label></p>
      <textarea id="question" name="w3review" rows="4" cols="50" required></textarea>
      <br>
    

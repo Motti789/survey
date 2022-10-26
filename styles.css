@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Oswald:wght@600&display=swap");
+
+
+   body{
+    background-color: burlywood;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    
+    font-size: large;
+    color: green;    
+    font-weight: bold;
+  }
+
+  #questions-container{
+  position: fixed;
+  margin-top: 120px;
+  margin-left: 550px;
+  transform: scale(1.2);
+  }
