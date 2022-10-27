@@ -10,21 +10,22 @@ class Question{
    questionsDiv.innerHTML += `
     <form>
     <label for="username">Name:</label>
-    <input type="text" id="username" name="username" size="30" required>
-
-     <p><label for="first-question">What did you accomplish today:</label></p>
-     <textarea id="question" name="w3review" rows="4" cols="50" required></textarea>
-     <br>
-   
-     <p><label for="second-qustion">Second Question:</label></p>
-     <textarea id="question" name="w3review" rows="4" cols="50" required></textarea>
-     <br>
-   
-     <p><label for="third-question">Third Question:</label></p>
-     <textarea id="question" name="w3review" rows="4" cols="50" required></textarea>
+    <input type="text" id="name" name="username" size="30" required>
+     <br></br>
+     
+     <p><label for="first-question">What did you accomplish today?</label></p>
+     <textarea id="question" rows="4" cols="50" required></textarea>
      <br>
      
-     <input type="submit" value="Submit">
+     <p><label for="second-qustion">How will you improve your tomorrow?</label></p>
+     <textarea id="question" rows="4" cols="50" required></textarea>
+     <br>
+
+     <p><label for="third-question"> Can you name 2 things that motivated you today?</label></p>
+     <textarea id="question" rows="4" cols="50" required></textarea>
+     <br></br>
+
+     <div id="button"> <input type="submit" > </div>
     </form>
    `
   }
